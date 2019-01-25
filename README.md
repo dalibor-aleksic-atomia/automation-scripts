@@ -9,5 +9,5 @@ curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts
 ```
 ##### Install AWS CLI
 ```
-curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/docker-ubuntu.sh | bash
+curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/awscli-ubuntu.sh | bash
 ```
