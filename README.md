@@ -3,11 +3,11 @@ Collection bash scripts that automate boring and repetative tasks.
 
 ## Ubuntu
 
-### Install Docker
+##### Install Docker
 ``` 
 curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/docker-ubuntu.sh | bash
 ```
-### Install AWS CLI
+##### Install AWS CLI
 ```
 curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/docker-ubuntu.sh | bash
 ```
