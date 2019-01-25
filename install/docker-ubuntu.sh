@@ -25,7 +25,7 @@ function echo_magenta {
 function print_banner {
     echo_bold "======================================"
     echo_bold "=      DACHA204 AUTOMATION SCRIPT    ="
-    echo_bold "=               NAME                 ="
+    echo_bold "=            UBUNTU DOCKER           ="
     echo_bold "======================================"
     echo ""
 }
