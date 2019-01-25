@@ -1,8 +1,6 @@
 # Automation Scripts
 Collection bash scripts that automate boring and repetative tasks.
 
-# Scripts
-
 ## Ubuntu
 
 ### Install Docker
