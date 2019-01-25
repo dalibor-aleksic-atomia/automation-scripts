@@ -72,5 +72,6 @@ print_stage "Installing AWS CLI"
 run pip3 install awscli --upgrade --user
 
 print_notes "If 'aws' command is not recognized, please re-login."
+print_notes "Run 'aws configure' to configure"
 ######################################################################################
 print_finished
