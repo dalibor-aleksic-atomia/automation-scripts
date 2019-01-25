@@ -74,6 +74,7 @@ run sudo apt-get install -y docker-ce
 
 print_stage "Allowing executing docker without sudo"
 run sudo usermod -aG docker ${USER}
+print_notes "Relogin to take effect"
 
 ######################################################################################
 print_finished
