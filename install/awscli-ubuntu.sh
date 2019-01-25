@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#!/bin/bash
-
 function echo_bold {
     echo -e "\e[1m$@\e[0m"
 }
@@ -27,19 +25,20 @@ function echo_magenta {
 function print_banner {
     echo_bold "======================================"
     echo_bold "=      DACHA204 AUTOMATION SCRIPT    ="
-    echo_bold "=           UBUNTU AWS CLI           ="
     echo_bold "======================================"
+    echo_light_blue "Script: $SCRIPT_NAME"
     echo ""
 }
 function print_stage {
+    echo ""
     echo_bold "==> $@"
 }
 function print_warrning {
     echo_yellow "$@"
 }
 function print_finished {
-    echo_green "Completed"
-
+    echo_green "*** Completed ***"
+    echo ""
 }
 function print_notes {
     echo_magenta "$@"
@@ -59,6 +58,7 @@ function run {
     check_execution
 }
 
+SCRIPT_NAME="AWS CLI installer for Ubuntu"
 print_banner
 ######################################################################################
 
