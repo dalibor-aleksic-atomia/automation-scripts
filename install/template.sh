@@ -20,7 +20,7 @@ function echo_light_blue {
 function print_banner {
     echo_bold "======================================"
     echo_bold "=      DACHA204 AUTOMATION SCRIPT    ="
-    echo_bold "=       Ubuntu Docker installer      ="
+    echo_bold "=               NAME                 ="
     echo_bold "======================================"
     echo ""
 }
@@ -50,20 +50,7 @@ function run {
 print_banner
 ######################################################################################
 
-print_stage "Fetching GPG key"
-run curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-
-print_stage "Adding Docker repository"
-run sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-
-print_stage "APT update"
-run sudo apt-get update
-
-print_stage "Installing docker-ce"
-run sudo apt-get install -y docker-ce
-
-print_stage "Allowing executing docker without sudo"
-run sudo usermod -aG docker ${USER}
+## COMMANDS HERE
 
 ######################################################################################
 print_finished
