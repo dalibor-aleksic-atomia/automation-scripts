@@ -59,7 +59,6 @@ function run {
     check_execution
 }
 function require_var {
-    echo_bold "Checking $1"
     VAL=${!1}
     if [[ -z $VAL ]]; then
         echo_red "Environment variable $1 is required."
