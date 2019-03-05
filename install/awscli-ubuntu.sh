@@ -16,7 +16,7 @@ function echo_light_blue {
     echo_bold "\e[94m$@"
 }
 function echo_yellow {
-    echo_bold "\e[33$@"
+    echo_bold "\e[33m$@"
 }
 function echo_magenta {
     echo_bold "\e[95m$@"
