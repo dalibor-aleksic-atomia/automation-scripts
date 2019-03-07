@@ -18,3 +18,12 @@ curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts
 curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/awscli-ubuntu.sh | bash
 ```
 
+##### Install Laravel Dev Environment
+```
+curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/laravel-devenv-ubuntu.sh | bash
+```
+
+##### Install Composer
+```
+curl https://raw.githubusercontent.com/dalibor-aleksic-atomia/automation-scripts/master/install/composer-ubuntu.sh | bash
+```
