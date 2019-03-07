@@ -1,5 +1,5 @@
 #!/bin/bash
-## Template: v1.1
+## Template: v1.2
 
 function echo_bold {
     echo -e "\e[1m$@\e[0m"
@@ -61,8 +61,10 @@ function run {
 function require_var {
     VAL=${!1}
     if [[ -z $VAL ]]; then
-        echo_red "Environment variable $1 is required."
+        echo_red "ENVIRONMENT VARIABLE REQUIRED: $1"
         exit 1
+    else
+        echo_green "ENVIRONMENT VARIABLE OK: $1"
     fi  
 }
 SCRIPT_NAME="TEMPLATE"
