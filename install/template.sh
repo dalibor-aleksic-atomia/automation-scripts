@@ -1,5 +1,5 @@
 #!/bin/bash
-## Template: v1.3
+## Template: v1.4
 
 function echo_bold {
     echo -e "\e[1m$@\e[0m"
@@ -58,6 +58,12 @@ function run {
     "$@"
     check_execution
 }
+function try_run {
+		echo_light_blue "Command (try): \e[90m$@"
+		"$@"
+		echo_light_blue "Status: \e[90m$?"
+}
+
 function require_var {
     VAL=${!1}
     if [[ -z $VAL ]]; then
